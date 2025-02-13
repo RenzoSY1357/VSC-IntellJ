@@ -27,7 +27,7 @@ public int suma() {
         if(num2 == 0)
             throw new java.lang.ArithmeticException("División por 0");
         else{
-            int resul= num1 / num2;
+            int resul= num1 / num2 + 2;
             return resul;
         }
     }
